@@ -1,1 +1,0 @@
-# TypeSpeed-Check
