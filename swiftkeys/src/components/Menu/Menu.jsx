@@ -28,7 +28,7 @@ export default function Menu({activeQType, activeQamount, onTypeClick, onAmountC
         {items.map((item) => (
           <li
             key={item.type}
-            className="quantity-type-options"
+            className={`quantity-type-options ${item.type===activeQType ? "active" : ""}`}
             onClick={() => {
               onTypeClick(item.type);
             }}
@@ -44,7 +44,7 @@ export default function Menu({activeQType, activeQamount, onTypeClick, onAmountC
       </ol>
       <ol className="quantity-amount">
         {AmountMenu.map((amount, index) => (
-          <li key={index} className="amount-value" onClick={() => onAmountClick(amount)}>
+          <li key={index} className={`amount-value ${amount===activeQamount ? "active" : ""}`} onClick={() => onAmountClick(amount)}>
             {amount}
           </li>
         ))}

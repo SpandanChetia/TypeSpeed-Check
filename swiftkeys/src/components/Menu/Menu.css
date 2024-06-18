@@ -1,52 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
 .menu {
-    display: flex;
-    justify-content: center;
-    padding: 1rem;
-    width: 100%;
-    position: relative;
-    top: 4rem;
-  }
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  height: 5.5%;
+  width: 50%;
+  margin: 0 auto;
+  position: relative;
+  top: 4rem;
+  color: #524141;
+  background-color: #262223;
+  border-radius: 20px; 
   
-  .quantity-type {
-    display: flex;
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-  }
-  
-  .quantity-type-options {
-    display: flex;
-    align-items: center;
-    margin: 0 1rem;
-    font-size: 1.2rem;
-    cursor: pointer;
-  }
-  
-  .quantity-type-options i,
-  .letter-icon {
-    font-size: 18px; /* Adjust size as needed */
-    width: 24px; /* Adjust size as needed */
-    height: 24px; /* Adjust size as needed */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-right: 0.8rem;
-  }
-  
-  .letter-icon {
-    font-weight: bold;
-    margin-right: 0.5rem;
-  }
-  
-  .quantity-amount {
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-  }
-  
-  .amount-value {
-    margin-right: 1rem;
-    cursor: pointer;
-  }
-  
+}
+
+
+.quantity-type,
+.quantity-amount {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.quantity-type-options,
+.amount-value {
+  display: flex;
+  align-items: center;
+  margin: 0 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.quantity-type-options i{
+  font-size: 1.15rem;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 0.8rem;
+}
+.letter-icon {
+  font-size: 1.5rem;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 0.8rem;
+}
+
+.quantity-type-options.active {
+  color: #deaf9d;
+}
+
+.amount-value.active {
+  color:#deaf9d;
+}
+
+.letter-icon {
+  font-weight: bold;
+  margin-right: 0.5rem;
+}

@@ -13,13 +13,13 @@ const Words = ({ activeQType, activeQamount }) => {
     };
 
     const randomParagraph = getRandomParagraph();
-    setCurrentPara(randomParagraph);
+    setCurrentPara(randomParagraph); 
   }, [activeQType, activeQamount]);
 
   return (
-    <>
-      <div className="words-container">{currentPara}</div>
-    </>
+    <div className="words-container">
+      <p style={{ fontSize: "3rem", lineHeight: "1.6" }}>{currentPara}</p>
+    </div>
   );
 };
 

@@ -1,59 +1,118 @@
 const PARAGRAPHS = {
     time: {
-        15: [
-            "Time is a precious resource, and we must use it wisely.",
-            "Fifteen minutes can be spent on a quick meditation or reading a few pages of a book.",
-            "A short break can rejuvenate your mind and increase productivity."
+        '15': [
+            "Time is a precious resource, and we must use it wisely. Fifteen minutes can be spent on a quick meditation or reading a few pages of a book. A short break can rejuvenate your mind and increase productivity. Use these brief moments to refocus and recharge, ensuring that your energy levels are maintained throughout the day. It's amazing how much can be accomplished in just a quarter of an hour if used efficiently and with intention.",
+            "Fifteen minutes of exercise can boost your mood and improve your health. Whether it's a quick jog, some stretching, or a short yoga session, those minutes are well spent. Even a brief walk can clear your mind and provide a fresh perspective on challenges you are facing. Incorporating these short bursts of activity into your routine can make a significant difference over time.",
+            "In fifteen minutes, you can tidy up your workspace, making it more conducive to productivity. A clutter-free environment helps to minimize distractions and enhance focus. Use this time to organize your thoughts, set priorities, or even write a to-do list for the rest of your day. These small steps can lead to greater efficiency and effectiveness in your tasks.",
+            "Fifteen minutes can be dedicated to learning something new, such as listening to a podcast, watching an informative video, or reading an article. This habit of continuous learning keeps your mind sharp and can introduce you to new ideas and perspectives. Over time, these brief learning sessions accumulate, contributing to your personal and professional growth.",
+            "Spending fifteen minutes on mindfulness or meditation can significantly reduce stress and improve mental clarity. These practices help you to center yourself, manage your emotions, and approach your day with a calm and focused mindset. Consistent practice, even for short periods, can have profound long-term benefits for your overall well-being.",
+            "In fifteen minutes, you can connect with a friend or family member through a quick call or message. Maintaining these relationships is important for emotional support and happiness. A brief conversation can uplift your spirits and strengthen your bonds, reminding you that you are not alone in your journey.",
+            "Fifteen minutes can be spent on a hobby or creative pursuit. Whether it's drawing, playing a musical instrument, or writing, these activities provide a mental break from your usual routine and allow you to express yourself. Engaging in hobbies regularly, even for short periods, can enhance your creativity and overall satisfaction with life.",
+            "Fifteen minutes can be used to review and reflect on your goals. Take this time to assess your progress, make necessary adjustments, and plan your next steps. Regular reflection helps to keep you aligned with your objectives and ensures that you are moving in the right direction. It is a powerful tool for personal development and achievement.",
+            "Fifteen minutes can be spent on a digital detox. Step away from screens and technology to give your eyes and mind a rest. Use this time to engage in activities that do not involve digital devices, such as going for a walk, reading a physical book, or simply sitting quietly. This break from digital overload can help to reduce eye strain and mental fatigue.",
+            "Fifteen minutes can be a perfect time to practice gratitude. Reflect on the positive aspects of your life and acknowledge the things you are thankful for. This practice can shift your mindset towards positivity and improve your overall outlook on life. Writing down a few things you are grateful for each day can help to cultivate a habit of gratitude."
         ],
-        30: [
-            "Half an hour is enough to take a brisk walk and clear your mind.",
-            "In thirty minutes, you can prepare a healthy meal or catch up with a friend.",
-            "Thirty minutes of focused work can lead to significant progress on a project."
+        '30': [
+            "Half an hour is enough to take a brisk walk and clear your mind. In thirty minutes, you can prepare a healthy meal or catch up with a friend. Thirty minutes of focused work can lead to significant progress on a project. Use this time to tackle tasks that require a bit more attention and effort. Whether it's working on a personal project, engaging in exercise, or simply taking a break, thirty minutes can be very productive. This block of time is ideal for breaking down larger tasks into manageable chunks, making them less overwhelming. You can also use this time to practice a hobby, like playing a musical instrument or painting, which can be both relaxing and rewarding. Engaging in such activities can stimulate your creativity and provide a sense of accomplishment.",
+            "In thirty minutes, you can complete a full workout, enhancing your physical fitness and energy levels. This can include a combination of cardio, strength training, and stretching. Consistent thirty-minute workouts can have a substantial impact on your health over time. Moreover, this period is sufficient to engage in a hobby or creative activity, providing a mental and emotional boost. This is also a great time to connect with loved ones, either through a phone call or a quick visit. Maintaining social connections is crucial for emotional well-being, and thirty minutes is just enough to touch base without feeling rushed.",
+            "Thirty minutes is a good amount of time to read a chapter of a book or several articles. This habit helps to expand your knowledge and keep your mind engaged. It can also be used to write, whether journaling your thoughts, composing a blog post, or working on a creative writing project. Writing regularly in these intervals can improve your skills and provide a productive outlet for your ideas. Additionally, you can use this time for personal reflection, planning your day, or setting goals. These activities help you stay organized and focused, contributing to your overall productivity and success.",
+            "With thirty minutes, you can clean and organize a room or workspace. This not only creates a more pleasant environment but also reduces stress and increases your ability to concentrate. A tidy space often leads to a tidy mind, enabling you to work more efficiently and feel more at ease in your surroundings. This time can also be used for meal prepping, which can save you time and ensure you have healthy meals ready throughout the week. Preparing ingredients or cooking a few dishes in advance can streamline your daily routine and promote healthier eating habits.",
+            "Spending thirty minutes on meditation or mindfulness can greatly enhance your mental well-being. These practices can reduce stress, increase awareness, and improve your ability to focus. Regular meditation, even for short periods, can lead to lasting benefits for your mental and emotional health. You can also use this time for stretching or yoga, which can relieve physical tension and improve flexibility. Incorporating these activities into your daily routine can contribute to both your mental and physical health, helping you feel more balanced and centered.",
+            "Thirty minutes is enough time to cook a healthy, home-cooked meal. This not only ensures you are eating nutritious food but also allows you to unwind and take a break from other tasks. Cooking can be a relaxing and enjoyable activity, providing a sense of accomplishment when you prepare something delicious. This is also an opportunity to try new recipes and experiment with different ingredients, making your meals more interesting and varied. Cooking at home can be a creative outlet and a way to bond with family or housemates as you prepare and share meals together.",
+            "Use thirty minutes to engage in learning a new skill or hobby. This could be anything from learning a new language, practicing a musical instrument, or trying out a new craft. Consistently dedicating this time to skill development can lead to significant improvements and personal growth. Additionally, you can use this time for online courses or tutorials, expanding your knowledge in areas of interest. Investing in your personal development for just half an hour a day can lead to substantial long-term benefits and a deeper sense of fulfillment.",
+            "Spending thirty minutes on social connections can be very fulfilling. Whether it's meeting a friend for coffee, having a video call with a family member, or participating in a social activity, these interactions are important for your emotional well-being. They provide support, joy, and a sense of belonging. This time can also be used to volunteer or participate in community activities, giving you a chance to give back and make a positive impact. Building and maintaining strong social ties is essential for a happy and balanced life.",
+            "In thirty minutes, you can tackle small home improvement projects. This might include fixing a leaky faucet, painting a small area, or organizing a closet. Completing these tasks not only improves your living space but also gives you a sense of accomplishment and productivity. You can also use this time to take care of errands or administrative tasks, such as paying bills or responding to emails. Managing these smaller tasks efficiently can reduce your overall workload and help you stay on top of your responsibilities.",
+            "Use thirty minutes for self-reflection and planning. Assess your current goals, track your progress, and set new objectives. This time can be used to plan your day, week, or month, ensuring that you are organized and prepared. Regular reflection and planning help to keep you focused and aligned with your goals. You can also use this time to practice gratitude by writing down things you are thankful for, which can boost your mood and overall outlook. Incorporating these reflective practices into your routine can enhance your personal growth and well-being."
         ],
-        60: [
-            "An hour can be devoted to a deep work session without interruptions.",
-            "Sixty minutes of exercise can greatly benefit your physical and mental health.",
-            "In an hour, you can complete a meaningful task or learn something new."
+        '60': [
+            "An hour can be devoted to a deep work session without interruptions. Sixty minutes of exercise can greatly benefit your physical and mental health. In an hour, you can complete a meaningful task or learn something new. This is enough time to delve into complex projects, study a subject in-depth, or engage in creative pursuits. Utilizing this time effectively can lead to significant accomplishments and personal growth. This period allows you to fully immerse yourself in your work, achieving a state of flow where you can produce your best work. Whether it's a professional task or a personal project, an uninterrupted hour can be highly productive and rewarding.",
+            "In sixty minutes, you can engage in a comprehensive workout, incorporating cardio, strength training, and flexibility exercises. This duration is ideal for maintaining physical fitness and boosting your energy levels. Regular one-hour workouts can have profound effects on your health and well-being. You can also use this time for group fitness classes or outdoor activities, making exercise more enjoyable and social. Committing to an hour of physical activity each day can significantly improve your overall health and fitness, leading to long-term benefits.",
+            "An hour is a perfect amount of time to focus on a challenging work task or project. Without interruptions, you can make substantial progress and achieve a state of flow. This focused time is invaluable for completing tasks that require deep concentration and problem-solving. You can also use this time for brainstorming or creative thinking, allowing you to come up with innovative ideas and solutions. By dedicating an hour to focused work, you can enhance your productivity and achieve your goals more efficiently.",
+            "Spending sixty minutes on a hobby or creative activity can be incredibly rewarding. Whether it's painting, writing, playing an instrument, or crafting, this time allows you to fully immerse yourself in the activity and express your creativity. Regular engagement in hobbies can enhance your skills and provide a great sense of satisfaction. You can also use this time to explore new hobbies or interests, expanding your horizons and discovering new passions. Incorporating creative activities into your routine can boost your mood and overall well-being.",
+            "Use an hour to read a significant portion of a book or several chapters. This habit not only expands your knowledge but also improves your concentration and comprehension skills. Reading regularly for an hour can significantly contribute to your personal and intellectual growth. You can also use this time to read diverse genres and authors, broadening your perspective and understanding of different topics. Making reading a daily habit can enrich your life and provide a continuous source of learning and inspiration.",
+            "Sixty minutes can be dedicated to learning a new skill or subject. This might include taking an online course, practicing a new language, or studying a particular topic. Consistent learning sessions of this length can lead to mastery and a deep understanding of new areas. You can also use this time for hands-on practice or experiments, applying what you've learned in a practical setting. Investing an hour each day in your education and personal development can lead to significant long-term benefits and opportunities.",
+            "An hour spent on mindfulness or meditation can have profound benefits for your mental health. These practices can help reduce stress, increase awareness, and improve emotional regulation. Regular, longer meditation sessions can deepen your practice and enhance your overall well-being. You can also use this time for other relaxation techniques, such as deep breathing exercises or progressive muscle relaxation. Incorporating these practices into your daily routine can help you manage stress and maintain a sense of calm and balance.",
+            "Spending sixty minutes on social interactions can be very fulfilling. This could involve having a meal with family, meeting friends for a social activity, or participating in a community event. These interactions are crucial for emotional support, joy, and a sense of connection. You can also use this time to network and build professional relationships, which can benefit your career and personal growth. Maintaining strong social ties is essential for your emotional well-being and overall happiness.",
+            "An hour is sufficient to tackle significant home improvement projects. This might include painting a room, rearranging furniture, or deep cleaning. Completing these tasks improves your living space and provides a sense of accomplishment and productivity. You can also use this time for gardening or outdoor maintenance, enhancing your home's curb appeal and creating a pleasant environment. Regularly dedicating an hour to home improvement can keep your living space in top condition and reduce the need for larger, time-consuming projects.",
+            "Use an hour for self-reflection, planning, and goal setting. Assess your current progress, set new goals, and plan the steps needed to achieve them. Regular, in-depth reflection and planning sessions help to keep you organized, focused, and aligned with your long-term objectives. You can also use this time to review and adjust your strategies, ensuring you are on the right path. Incorporating these practices into your routine can enhance your personal and professional growth, helping you achieve success and fulfillment."
         ]
     },
     words: {
-        10: [
+        '10': [
             "Short sentences are powerful.",
             "Less is more in writing.",
-            "Brevity is the soul of wit."
+            "Brevity is the soul of wit.",
+            "Keep it simple and clear.",
+            "Effective writing is concise.",
+            "Every word counts in writing.",
+            "Clarity is key in communication.",
+            "Be precise and to the point.",
+            "Write with purpose and intent.",
+            "Simplicity enhances readability."
         ],
-        25: [
-            "Writing with fewer words can make your message clearer.",
-            "Use concise language to keep your audience engaged.",
-            "Editing out unnecessary words improves readability."
+        '25': [
+            "Writing with fewer words can make your message clearer and more impactful, ensuring your audience stays engaged and understands your point.",
+            "Use concise language to maintain reader interest and convey your ideas effectively. Every word should serve a purpose and add value.",
+            "Editing out unnecessary words improves readability, making your writing more engaging and easier to understand for your audience.",
+            "Choose words carefully to convey meaning effectively. Clear and precise language helps your message resonate with readers.",
+            "Every sentence should add value, enhancing the clarity and impact of your writing. Focus on essential points to maintain reader interest.",
+            "Shorter paragraphs keep the reader's attention, making your writing more engaging and easier to follow.",
+            "Effective communication often involves using fewer words to convey a clear and powerful message, ensuring better understanding.",
+            "Precision and clarity in word choice are crucial for effective writing, helping to convey your message accurately and succinctly.",
+            "Mindful word choice ensures clarity, making your writing more impactful and easier to comprehend for your readers.",
+            "Writing succinctly can improve your message's impact, making it more memorable and engaging for your audience."
         ],
-        50: [
-            "A fifty-word paragraph is ideal for making a point without overwhelming the reader.",
-            "Being concise yet informative is a valuable writing skill.",
-            "Practice writing short paragraphs to enhance your ability to communicate effectively."
+        '50': [
+            "A fifty-word paragraph is ideal for making a point without overwhelming the reader. Being concise yet informative is a valuable writing skill. Practice writing short paragraphs to enhance your ability to communicate effectively. Each word should serve a purpose, contributing to the overall clarity and impact of your message. By limiting your word count, you encourage yourself to be more thoughtful and precise in your writing.",
+            "Effective communication often requires brevity and clarity. By focusing on writing concise fifty-word paragraphs, you can ensure your message is both clear and impactful. This practice not only improves readability but also helps you develop a more disciplined writing style. Each word should be chosen carefully to contribute to the overall meaning and effectiveness of your writing.",
+            "Writing concise fifty-word paragraphs can enhance your ability to communicate clearly and effectively. This practice encourages you to focus on the most important points, eliminating unnecessary words. By doing so, you can create more impactful and readable content. Each word should be selected carefully to ensure it adds value to the overall message.",
+            "A fifty-word paragraph provides a perfect balance between brevity and detail. This writing approach helps you convey important information without overwhelming the reader. By focusing on the essentials, you can create clear and engaging content. Practice writing fifty-word paragraphs to improve your ability to communicate effectively and concisely.",
+            "The art of writing concise fifty-word paragraphs lies in the ability to convey meaningful information with clarity. This practice encourages you to eliminate superfluous words and focus on the core message. By doing so, you enhance the readability and impact of your writing. Each word should be chosen with care to ensure it adds value to the overall content.",
+            "Crafting fifty-word paragraphs can improve your writing skills by encouraging brevity and clarity. This approach ensures that your message is easy to understand and engaging for the reader. By focusing on the essentials, you can create more effective and impactful content. Each word should contribute to the overall meaning and purpose of your writing.",
+            "Writing concise fifty-word paragraphs helps you develop a clear and effective communication style. This practice encourages you to focus on the most important points and eliminate unnecessary words. By doing so, you can create more engaging and readable content. Each word should be selected carefully to ensure it adds value to the overall message.",
+            "A fifty-word paragraph strikes a balance between providing sufficient detail and maintaining brevity. This writing approach helps you convey your message clearly and concisely. By focusing on the essentials, you can create more effective and engaging content. Practice writing fifty-word paragraphs to enhance your ability to communicate with clarity and precision.",
+            "The skill of writing fifty-word paragraphs lies in conveying important information succinctly. This practice encourages you to eliminate unnecessary words and focus on the core message. By doing so, you can create more impactful and readable content. Each word should be chosen with care to ensure it adds value to the overall meaning and purpose of your writing.",
+            "Crafting concise fifty-word paragraphs can improve your writing by encouraging brevity and clarity. This approach ensures that your message is easy to understand and engaging for the reader. By focusing on the essentials, you can create more effective and impactful content. Each word should contribute to the overall meaning and purpose of your writing."
         ]
     },
-    quotes: {
+    quote: {
         all: [
             "The only limit to our realization of tomorrow is our doubts of today. - Franklin D. Roosevelt",
             "Life is 10% what happens to us and 90% how we react to it. - Charles R. Swindoll",
             "The best way to predict your future is to create it. - Peter Drucker",
-            "Success is not the key to happiness. Happiness is the key to success. - Albert Schweitzer"
+            "Success is not the key to happiness. Happiness is the key to success. - Albert Schweitzer",
+            "Believe you can and you're halfway there. - Theodore Roosevelt",
+            "Keep going. Be all in. - Bryan Hutchinson",
+            "Dream big and dare to fail. - Norman Vaughan",
+            "What lies behind us and what lies before us are tiny matters compared to what lies within us. - Ralph Waldo Emerson",
+            "The only way to do great work is to love what you do. - Steve Jobs",
+            "Life is what happens when you're busy making other plans. - John Lennon",
+            "Success is not final, failure is not fatal: It is the courage to continue that counts. - Winston Churchill",
+            "Your time is limited, don't waste it living someone else's life. Don't be trapped by dogma, which is living with the results of other people's thinking. - Steve Jobs",
+            "In the end, it's not the years in your life that count. It's the life in your years. - Abraham Lincoln",
+            "It does not matter how slowly you go as long as you do not stop. - Confucius",
+            "The future belongs to those who believe in the beauty of their dreams. - Eleanor Roosevelt"
         ],
         short: [
             "Believe you can and you're halfway there. - Theodore Roosevelt",
             "Keep going. Be all in. - Bryan Hutchinson",
-            "Dream big and dare to fail. - Norman Vaughan"
+            "Dream big and dare to fail. - Norman Vaughan",
+            "The best way to predict your future is to create it. - Peter Drucker",
+            "Success is not the key to happiness. Happiness is the key to success. - Albert Schweitzer"
         ],
         medium: [
             "What lies behind us and what lies before us are tiny matters compared to what lies within us. - Ralph Waldo Emerson",
             "The only way to do great work is to love what you do. - Steve Jobs",
-            "Life is what happens when you're busy making other plans. - John Lennon"
+            "Life is what happens when you're busy making other plans. - John Lennon",
+            "Success is not final, failure is not fatal: It is the courage to continue that counts. - Winston Churchill",
+            "Your time is limited, don't waste it living someone else's life. Don't be trapped by dogma, which is living with the results of other people's thinking. - Steve Jobs"
         ],
         long: [
             "Success is not final, failure is not fatal: It is the courage to continue that counts. - Winston Churchill",
             "Your time is limited, don't waste it living someone else's life. Don't be trapped by dogma, which is living with the results of other people's thinking. - Steve Jobs",
-            "In the end, it's not the years in your life that count. It's the life in your years. - Abraham Lincoln"
+            "In the end, it's not the years in your life that count. It's the life in your years. - Abraham Lincoln",
+            "Life is 10% what happens to us and 90% how we react to it. - Charles R. Swindoll",
+            "The future belongs to those who believe in the beauty of their dreams. - Eleanor Roosevelt"
         ]
     }
 };
