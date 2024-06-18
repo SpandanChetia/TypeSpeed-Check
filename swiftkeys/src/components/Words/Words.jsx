@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./Words.css";
 import PARAGRAPHS from "../../components/dataset";
 
@@ -15,8 +15,6 @@ const Words = ({ activeQType, activeQamount }) => {
     const randomParagraph = getRandomParagraph();
     setCurrentPara(randomParagraph);
   }, [activeQType, activeQamount]);
-
-  changeCurrentPara(getRandomParagraph());
 
   return (
     <>
