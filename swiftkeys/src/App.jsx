@@ -1,5 +1,7 @@
+import React from 'react'
 import { useState } from 'react'
 import Header from './components/Header/Header'
+import Menu from './components/Menu/Menu'
 /*import './App.css'*/
 
 function App() {
@@ -7,7 +9,7 @@ function App() {
   return (
     <>
       <Header />
-      <NavBar />
+      <Menu />
     </>
   )
 }
