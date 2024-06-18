@@ -1,51 +1,52 @@
 .menu {
-  display: flex;
-  justify-content: center;
-  padding: 1rem;
-  width: 100%;
-  position: relative;
-  top: 4rem;
-}
-
-.quantity-type {
-  display: flex;
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-}
-
-.quantity-type-options {
-  display: flex;
-  align-items: center;
-  margin: 0 1rem;
-  font-size: 1.2rem;
-  cursor: pointer;
-}
-
-.quantity-type-options i,
-.letter-icon {
-  font-size: 18px;
-  width: 10px;
-  height: 10px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-right: 0.8rem;
-}
-
-.letter-icon {
-  font-weight: bold;
-  margin-right: 0.5rem;
-}
-
-.quantity-amount{
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    width: 100%;
+    position: relative;
+    top: 4rem;
+  }
+  
+  .quantity-type {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .quantity-type-options {
+    display: flex;
+    align-items: center;
+    margin: 0 1rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+  
+  .quantity-type-options i,
+  .letter-icon {
+    font-size: 18px; /* Adjust size as needed */
+    width: 24px; /* Adjust size as needed */
+    height: 24px; /* Adjust size as needed */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 0.8rem;
+  }
+  
+  .letter-icon {
+    font-weight: bold;
+    margin-right: 0.5rem;
+  }
+  
+  .quantity-amount {
     list-style: none;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-}
-
-.amount-value{
+  }
+  
+  .amount-value {
     margin-right: 1rem;
     cursor: pointer;
-}
+  }
+  

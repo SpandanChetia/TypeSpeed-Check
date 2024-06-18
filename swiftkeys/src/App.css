@@ -1,0 +1,8 @@
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* Optional: Center align vertically */
+    height: 100vh; /* Optional: Adjust height as needed */
+  }
+  

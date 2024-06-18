@@ -1,0 +1,27 @@
+.words-container {
+    max-width: 800px;
+    margin: 2rem auto; 
+    padding: 1rem;                
+  }
+  
+  .paragraph {
+    font-size: 1.5rem;
+    line-height: 1.6;
+    padding-bottom: 1rem;
+  }
+  
+  .cursor {
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .type-input {
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 1rem;
+    resize: none; 
+  }
+  
