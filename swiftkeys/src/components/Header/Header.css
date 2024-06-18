@@ -1,0 +1,42 @@
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 1rem;
+    width: 100%;
+    position: fixed;
+    top: 1rem;
+    left: 7rem;
+  }
+  
+  .logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .logo img {
+    height: 40px;
+    width: auto;
+    margin-right: 0.5rem; 
+  }
+  
+  .logo h1 {
+    font-size: 2rem;
+    margin: 0;
+  }
+  
+  .icons {
+    margin-left: 2rem;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+
+  .icons i {
+    font-size: 20px;
+    cursor: pointer;
+    margin-left: 1.8rem;
+  }
+  
