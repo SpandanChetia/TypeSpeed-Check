@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
 
 .words-container {
+  display: flex;
+  justify-content: center;
   min-width: 70%;
-  margin: 8.4rem auto;
-  padding: 1rem 10rem;
-  max-height: 15rem; 
+  margin: 8.3rem auto;
+  padding: 0rem 10rem;
+  max-height: 10rem; 
   overflow-y: auto; 
   color: #473939;
   font-family: "JetBrains Mono", monospace;
@@ -22,7 +24,7 @@
 .words-container .cursor {
   color: #333;
   font-weight: bold;
-  font-size: 0.8rem; 
+  font-size: 1.2rem; 
 }
 
 .words-container .type-input {

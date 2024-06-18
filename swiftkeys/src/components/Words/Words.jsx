@@ -18,7 +18,7 @@ const Words = ({ activeQType, activeQamount }) => {
 
   return (
     <div className="words-container">
-      <p style={{ fontSize: "3rem", lineHeight: "1.6" }}>{currentPara}</p>
+      <p style={{ fontSize: "2.5rem", lineHeight: "1.3" }}>{currentPara}</p>
     </div>
   );
 };
