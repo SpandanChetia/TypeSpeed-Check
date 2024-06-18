@@ -20,13 +20,8 @@ const quantity_amount = {
   quote: ["all", "short", "medium", "long"],
 };
 
-export default function Menu() {
-  const [activeQuantity, changeQuantity] = useState("time");
-
-  const quantity_amount_items = quantity_amount[activeQuantity];
-  const handle_quantitytype = (newtype) => {
-    changeQuantity(newtype);
-  };
+export default function Menu({activeQType, activeQamount, onTypeClick, onAmountClick}) {
+  const AmountMenu = quantity_amount[activeQType];
   return (
     <div className="menu">
       <ol className="quantity-type">
@@ -35,7 +30,7 @@ export default function Menu() {
             key={item.type}
             className="quantity-type-options"
             onClick={() => {
-              handle_quantitytype(item.type);
+              onTypeClick(item.type);
             }}
           >
             {item.type === "words" ? (
@@ -48,8 +43,8 @@ export default function Menu() {
         ))}
       </ol>
       <ol className="quantity-amount">
-        {quantity_amount_items.map((amount, index) => (
-          <li key={index} className="amount-value">
+        {AmountMenu.map((amount, index) => (
+          <li key={index} className="amount-value" onClick={() => onAmountClick(amount)}>
             {amount}
           </li>
         ))}
